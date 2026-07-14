@@ -201,7 +201,7 @@ $FEATURE_DESC
 
 $GOAL_BAR $GOAL_PCT%
 
-[View all builds →](../index.md)
+[View all builds](../index.md)
 
 ---
 
@@ -302,7 +302,7 @@ $PROGRESS_BAR $PERCENTAGE%
 
 [View today's entry →](./content/$DATE_STR.md)
 
-[View all builds →](../index.md)
+[View all builds](../index.md)
 
 ---
 

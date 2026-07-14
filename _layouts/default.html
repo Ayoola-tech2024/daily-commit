@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }} — {{ site.description }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="{{ site.baseurl }}/" class="header-title">{{ site.title }}</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">&#9790;</button>
+    </div>
+  </header>
+
+  <main class="container main">
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</span>
+      <span class="footer-tagline">{{ site.description }}</span>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      var prefers = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = saved || (prefers ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+      updateToggle(theme);
+
+      document.getElementById('theme-toggle').addEventListener('click', function() {
+        var current = document.documentElement.getAttribute('data-theme');
+        var next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        updateToggle(next);
+      });
+
+      function updateToggle(t) {
+        var btn = document.getElementById('theme-toggle');
+        btn.textContent = t === 'dark' ? '\u2600\uFE0F' : '\uD83C\uDF19';
+      }
+    })();
+  </script>
+</body>
+</html>

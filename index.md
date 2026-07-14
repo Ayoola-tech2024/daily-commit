@@ -1,8 +1,8 @@
 # Daily Build Journal — 2026
 
-by [Ayoola Damisile](https://github.com/Ayoola-tech2024)
+<span class="hero-subtitle">by **Ayoola Damisile**</span>
 
-🔥 **1-day streak** · 🎯 **1 / 300** builds completed
+🔥 **1-day streak** &middot; 🎯 **1 / 300** builds
 
 ---
 

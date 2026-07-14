@@ -152,25 +152,26 @@ EOF
 
 if [ -n "$BIRTHDAY_MSG" ]; then
   echo "" >> "$CONTENT_DIR/$DATE_STR.md"
-  echo "$BIRTHDAY_MSG" >> "$CONTENT_DIR/$DATE_STR.md"
+  echo "> $BIRTHDAY_MSG" >> "$CONTENT_DIR/$DATE_STR.md"
 fi
 
 if [ -n "$HOLIDAY_MSG" ]; then
   echo "" >> "$CONTENT_DIR/$DATE_STR.md"
-  echo "$HOLIDAY_MSG" >> "$CONTENT_DIR/$DATE_STR.md"
+  echo "> $HOLIDAY_MSG" >> "$CONTENT_DIR/$DATE_STR.md"
 fi
 
 if [ -n "$MONTH_CELEBRATION" ]; then
   echo "" >> "$CONTENT_DIR/$DATE_STR.md"
-  echo "$MONTH_CELEBRATION" >> "$CONTENT_DIR/$DATE_STR.md"
+  echo "> $MONTH_CELEBRATION" >> "$CONTENT_DIR/$DATE_STR.md"
 fi
 
 if [ -n "$YEAR_CELEBRATION" ]; then
   echo "" >> "$CONTENT_DIR/$DATE_STR.md"
-  echo "$YEAR_CELEBRATION" >> "$CONTENT_DIR/$DATE_STR.md"
+  echo "> $YEAR_CELEBRATION" >> "$CONTENT_DIR/$DATE_STR.md"
 fi
 
 if [ -n "$WEEKEND_VIBE" ]; then
+  echo "" >> "$CONTENT_DIR/$DATE_STR.md"
   echo "" >> "$CONTENT_DIR/$DATE_STR.md"
   echo "$WEEKEND_VIBE" >> "$CONTENT_DIR/$DATE_STR.md"
 fi
@@ -227,9 +228,9 @@ generate_index() {
   cat > "$INDEX_FILE" << EOF
 # Daily Build Journal — $TARGET_YEAR
 
-by [Ayoola Damisile](https://github.com/Ayoola-tech2024)
+<span class="hero-subtitle">by **Ayoola Damisile**</span>
 
-$STREAK_ICON **$STREAK-day streak** · 🎯 **$BUILD_NUM / $YEAR_GOAL** builds completed
+$STREAK_ICON **$STREAK-day streak** &middot; 🎯 **$BUILD_NUM / $YEAR_GOAL** builds
 
 ---
 

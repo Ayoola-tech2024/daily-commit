@@ -201,7 +201,7 @@ $FEATURE_DESC
 
 $GOAL_BAR $GOAL_PCT%
 
-[View all builds →](./index.md)
+[View all builds →](../index.md)
 
 ---
 
@@ -226,6 +226,10 @@ generate_index() {
   local INDEX_FILE="$REPO_ROOT/index.md"
 
   cat > "$INDEX_FILE" << EOF
+---
+layout: default
+---
+
 # Daily Build Journal — $TARGET_YEAR
 
 <span class="hero-subtitle">by **Ayoola Damisile**</span>
@@ -298,7 +302,7 @@ $PROGRESS_BAR $PERCENTAGE%
 
 [View today's entry →](./content/$DATE_STR.md)
 
-[View all builds →](./index.md)
+[View all builds →](../index.md)
 
 ---
 

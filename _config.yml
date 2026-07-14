@@ -2,10 +2,15 @@ title: Daily Build Journal
 description: One commit, every day
 author: Ayoola Damisile
 baseurl: "/daily-commit"
+theme: jekyll-theme-primer
 show_downloads: false
 
 defaults:
   - scope:
       path: "content"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
     values:
       layout: "default"

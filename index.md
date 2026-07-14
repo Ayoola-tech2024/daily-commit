@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Daily Build Journal — 2026
 
 <span class="hero-subtitle">by **Ayoola Damisile**</span>

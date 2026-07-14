@@ -206,7 +206,7 @@ $GOAL_BAR $GOAL_PCT%
 ---
 
 *Daily build #$BUILD_NUM — $DATE_STR*
-*— Ayoola Damisile*
+*— [Ayoola Damisile](https://github.com/Ayoola-tech2024)*
 EOF
 
 echo "✅ Created content for $DATE_STR (Build #$BUILD_NUM: $FEATURE_TITLE)"
@@ -348,7 +348,7 @@ $WEEKLY_BUILDS
 
 ---
 
-*— Ayoola Damisile*
+*— [Ayoola Damisile](https://github.com/Ayoola-tech2024)*
 EOF
     echo "✅ Weekly summary generated for week $WEEK_NUM"
   fi
@@ -377,7 +377,7 @@ if [ "$MONTH" = "12" ] && [ "$DAY" = "31" ]; then
 
 Thank you for following along. See you next year. 🚀
 
-*— Ayoola Damisile*
+*— [Ayoola Damisile](https://github.com/Ayoola-tech2024)*
 EOF
     echo "✅ Year-end recap generated"
   fi

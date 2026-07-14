@@ -145,13 +145,13 @@ body {
   color: var(--text-secondary);
 }
 
-.main a {
+.main a, .footer a {
   color: var(--accent);
   text-decoration: none;
   transition: color 0.2s;
 }
 
-.main a:hover {
+.main a:hover, .footer a:hover {
   color: var(--accent-hover);
   text-decoration: underline;
 }

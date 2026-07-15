@@ -1,9 +1,21 @@
-# Daily Commit
+# Daily Commit — 2026
 
 A daily build journal. One commit, every day.
 
-Each day's entry includes the date, day of year, season, celebrations, a build task, and a quote.
+🔥 **2-day streak** · 🎯 **2 / 300** builds
+
+## Year Progress
+
+██████████░░░░░░░░░░ 53.7%
+
+**Days completed:** 196 / 365
+
+## Latest
+
+[View today's entry →](./content/2026-07-15.md)
+
+[View all builds](/daily-commit/)
 
 ---
 
-*Powered by GitHub Actions*
+*Next build scheduled for tomorrow.*

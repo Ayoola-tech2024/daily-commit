@@ -13,7 +13,7 @@ const config = {
   title: 'Daily Build Journal',
   description: 'One commit, every day',
   author: 'Ayoola Damisile',
-  baseurl: process.env.VERCEL_ENV === 'production' ? '/daily-commit' : '/daily-commit'
+  baseurl: process.env.VERCEL_ENV === 'production' ? '' : ''
 };
 
 function readJSON(p) {
@@ -74,7 +74,9 @@ function build() {
 
   for (const file of contentFiles) {
     const raw = fs.readFileSync(path.join(CONTENT_DIR, file), 'utf-8');
-    const md = stripFrontMatter(raw).replace(/\.md\)/g, '.html)');
+    const md = stripFrontMatter(raw)
+      .replace(/\.md\)/g, '.html)')
+      .replace(/\(\/daily-commit\/\)/g, '(/)');
     const title = md.match(/^# (.+)$/m)?.[1] || file.replace('.md', '');
     const bodyHtml = marked(md);
     const pageLayout = layoutHtml.replace(/\{\{ content \}\}/g, bodyHtml);
@@ -84,7 +86,9 @@ function build() {
   }
 
   const indexRaw = fs.readFileSync(path.join(ROOT, 'index.md'), 'utf-8');
-  const indexMd = stripFrontMatter(indexRaw).replace(/\.md\)/g, '.html)');
+  const indexMd = stripFrontMatter(indexRaw)
+    .replace(/\.md\)/g, '.html)')
+    .replace(/\(\/daily-commit\/\)/g, '(/)');
   const indexTitle = indexMd.match(/^# (.+)$/m)?.[1] || config.title;
   const indexBody = marked(indexMd);
   let indexHtml = layoutHtml.replace(/\{\{ content \}\}/g, indexBody);

@@ -1,7 +1,7 @@
 {
-  "buildCommand": "bundle install && bundle exec jekyll build",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "_site",
-  "framework": "jekyll",
+  "framework": null,
   "github": {
     "silent": true
   }

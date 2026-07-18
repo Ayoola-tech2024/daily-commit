@@ -1,0 +1,11 @@
+{
+  "name": "daily-commit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-site.js"
+  },
+  "dependencies": {
+    "marked": "^15.0.0"
+  }
+}

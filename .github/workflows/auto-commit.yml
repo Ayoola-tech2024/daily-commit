@@ -1,4 +1,3 @@
-# Automated daily build workflow
 name: Daily Build
 
 on:

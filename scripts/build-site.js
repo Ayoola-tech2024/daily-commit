@@ -34,7 +34,7 @@ function renderTemplate(content, vars) {
   }
   h = h.replace(/\{\{ site\.time \| date: '%Y' \}\}/g, String(new Date().getFullYear()));
   h = h.replace(/\{\{ page\.title \| default: site\.title \}\}/g, vars.title || config.title);
-  h = h.replace(/\{\{ '\/assets\/css\/style\.css' \| relative_url \}\}/g, './assets/css/style.css');
+  h = h.replace(/\{\{ '\/assets\/css\/style\.css' \| relative_url \}\}/g, '/assets/css/style.css');
   h = h.replace(/\{\{ site\.baseurl \}\}\//g, `${config.baseurl}/`);
   h = h.replace(/\{\{ site\.baseurl \}\}/g, config.baseurl);
   return h;

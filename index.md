@@ -6,7 +6,7 @@ layout: default
 
 <span class="hero-subtitle">by **Ayoola Damisile**</span>
 
-🔥 **5-day streak** &middot; 🎯 **5 / 300** builds
+🔥 **6-day streak** &middot; 🎯 **6 / 300** builds
 
 ---
 
@@ -18,4 +18,5 @@ layout: default
 | 3 | [2026-07-16](./content/2026-07-16.md) | Responsive Layout Grid |
 | 4 | [2026-07-17](./content/2026-07-17.md) | Navigation Header |
 | 5 | [2026-07-18](./content/2026-07-18.md) | Dark Mode Toggle |
+| 6 | [2026-07-19](./content/2026-07-19.md) | Button Component System |
 

@@ -96,6 +96,7 @@ function build() {
   fs.writeFileSync(path.join(SITE_DIR, 'index.html'), indexHtml);
 
   const contentEntries = contentFiles
+    .filter(f => /^\d{4}-\d{2}-\d{2}\.md$/.test(f))
     .map(f => {
       const md = fs.readFileSync(path.join(CONTENT_DIR, f), 'utf-8');
       const title = md.match(/## Build #\d+: (.+)$/m)?.[1] || f.replace('.md', '');
@@ -105,15 +106,17 @@ function build() {
     .reverse();
 
   // Generate sitemap.xml
-  const sitemapUrls = contentEntries.map(e => {
-    const lastmod = new Date(e.date).toISOString().split('T')[0];
-    return `  <url>
+  const sitemapUrls = contentEntries
+    .filter(e => !isNaN(new Date(e.date).getTime()))
+    .map(e => {
+      const lastmod = new Date(e.date).toISOString().split('T')[0];
+      return `  <url>
     <loc>https://daily-commit.vercel.app/content/${e.file}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>`;
-  });
+    });
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

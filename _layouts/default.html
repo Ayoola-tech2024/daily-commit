@@ -84,11 +84,14 @@
       var searchInput = document.getElementById('search-input');
       if (searchInput) {
         searchInput.addEventListener('input', function(e) {
-          var query = e.target.value.toLowerCase();
-          var rows = document.querySelectorAll('.build-table tr, .month-section table tr');
+          var query = e.target.value.toLowerCase().trim();
+          
+          // Search table rows on index page
+          var rows = document.querySelectorAll('table tr');
           var visible = 0;
           var total = rows.length;
           rows.forEach(function(row) {
+            if (row.querySelector('th')) return; // Skip header row
             var text = row.textContent.toLowerCase();
             if (query === '' || text.indexOf(query) !== -1) {
               row.style.display = '';
@@ -97,10 +100,26 @@
               row.style.display = 'none';
             }
           });
+          
+          // Also search month sections
+          var sections = document.querySelectorAll('.month-section');
+          sections.forEach(function(section) {
+            var text = section.textContent.toLowerCase();
+            if (query === '' || text.indexOf(query) !== -1) {
+              section.style.display = '';
+            } else {
+              section.style.display = 'none';
+            }
+          });
+          
           // Update aria-live region if exists
           var liveRegion = document.getElementById('search-results');
-          if (liveRegion && query) {
-            liveRegion.textContent = 'Showing ' + visible + ' of ' + total + ' entries';
+          if (liveRegion) {
+            if (query) {
+              liveRegion.textContent = 'Showing ' + visible + ' of ' + total + ' entries';
+            } else {
+              liveRegion.textContent = '';
+            }
           }
         });
       }

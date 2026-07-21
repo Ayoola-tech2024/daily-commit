@@ -75,7 +75,7 @@ function build() {
   for (const file of contentFiles) {
     const raw = fs.readFileSync(path.join(CONTENT_DIR, file), 'utf-8');
     const md = stripFrontMatter(raw)
-      .replace(/\.md\)/g, '.html)')
+      .replace(/\((\.\/)?([\d]{4}-[\d]{2}-[\d]{2})\.md\)/g, '($2.html)')
       .replace(/\(\/daily-commit\/\)/g, '(/)');
     const title = md.match(/^# (.+)$/m)?.[1] || file.replace('.md', '');
     const bodyHtml = marked(md);

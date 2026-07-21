@@ -76,6 +76,12 @@ body {
   height: 56px;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
 .header-title {
   font-size: 0.95rem;
   font-weight: 600;
@@ -86,6 +92,31 @@ body {
 
 .header-title:hover {
   color: var(--accent);
+}
+
+.search-wrapper {
+  position: relative;
+}
+
+.search-input {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text);
+  width: 180px;
+  transition: border-color 0.2s, width 0.3s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  width: 240px;
+}
+
+.search-input::placeholder {
+  color: var(--text-muted);
 }
 
 .theme-toggle {
@@ -393,6 +424,181 @@ body {
   color: var(--text);
 }
 
+.streak-calendar {
+  display: grid;
+  grid-template-columns: repeat(53, 1fr);
+  gap: 3px;
+  margin: 1.5rem 0;
+}
+
+.streak-day {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 2px;
+  background: var(--border);
+  transition: background 0.2s;
+}
+
+.streak-day.filled {
+  background: var(--accent);
+}
+
+.streak-day.today {
+  border: 2px solid var(--accent);
+  background: var(--accent-hover);
+}
+
+.streak-day:hover {
+  transform: scale(1.3);
+  z-index: 1;
+}
+
+.entry-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.entry-nav a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.entry-nav a:hover {
+  background: var(--accent-light);
+  text-decoration: none;
+}
+
+.entry-nav-spacer {
+  flex: 1;
+}
+
+.tech-history-section {
+  border-left: 3px solid var(--accent);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  background: var(--accent-light);
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1rem 1rem 1.25rem;
+}
+
+.tech-history-section h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.tech-history-section small {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.tech-history-section small a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.tech-history-section small a:hover {
+  text-decoration: underline;
+}
+
+.today-section {
+  border-left: 3px solid #10b981;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  background: rgba(16, 185, 129, 0.08);
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1rem 1rem 1.25rem;
+}
+
+.today-section h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #10b981;
+}
+
+.today-section p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.title-truncate {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 300px;
+}
+
+@media (max-width: 600px) {
+  .title-truncate {
+    max-width: 180px;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  z-index: 1000;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 0 0 8px 0;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background: var(--accent-hover);
+}
+
+.search-results {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
 .footer {
   border-top: 1px solid var(--border);
   padding: 1.5rem 0;
@@ -432,5 +638,22 @@ body {
 
   .container {
     padding: 0 1rem;
+  }
+
+  .search-input {
+    width: 120px;
+  }
+
+  .search-input:focus {
+    width: 160px;
+  }
+
+  .streak-calendar {
+    grid-template-columns: repeat(26, 1fr);
+  }
+
+  .entry-nav {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }

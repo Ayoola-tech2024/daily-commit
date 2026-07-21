@@ -1,8 +1,8 @@
 # Daily Commit — 2026
 
-A daily build journal. One commit, every day.
+A daily entry journal. One commit, every day.
 
-🔥 **8-day streak** · 🎯 **8 / 300** builds
+🔥 **8-day streak** · 🎯 **8 / 300** entries
 
 ## Year Progress
 
@@ -14,8 +14,8 @@ A daily build journal. One commit, every day.
 
 [View today's entry →](./content/2026-07-21.md)
 
-[View all builds](/)
+[View all entries](/)
 
 ---
 
-*Next build scheduled for tomorrow.*
+*Next entry scheduled for tomorrow.*

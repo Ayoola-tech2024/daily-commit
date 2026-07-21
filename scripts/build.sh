@@ -105,10 +105,20 @@ elif [ "$DAY_OF_WEEK" = "7" ]; then
   WEEKEND_VIBE="☕ Sunday — rest, reflect, and plan the week ahead."
 fi
 
-TOTAL_FEATURES=$(jq 'length' "$DATA_DIR/features.json")
-FEATURE=$(jq -r ".[$FEATURE_INDEX]" "$DATA_DIR/features.json")
-FEATURE_TITLE=$(echo "$FEATURE" | jq -r '.title')
-FEATURE_DESC=$(echo "$FEATURE" | jq -r '.description')
+TOTAL_TECH_EVENTS=$(jq ".[\"$MONTH-$DAY\"] | length" "$DATA_DIR/tech-history.json" 2>/dev/null || echo "0")
+TECH_INDEX=$(( FEATURE_INDEX % (TOTAL_TECH_EVENTS > 0 ? TOTAL_TECH_EVENTS : 1) ))
+TECH_YEAR=$(jq -r ".[\"$MONTH-$DAY\"][$TECH_INDEX].year" "$DATA_DIR/tech-history.json" 2>/dev/null || echo "0")
+TECH_EVENT=$(jq -r ".[\"$MONTH-$DAY\"][$TECH_INDEX].event" "$DATA_DIR/tech-history.json" 2>/dev/null || echo "")
+if [ -z "$TECH_EVENT" ] || [ "$TECH_EVENT" = "null" ]; then
+  TECH_YEAR=""
+  TECH_EVENT="No major tech event recorded for this date."
+fi
+
+# Extract recent events (2015+) for "Today" section
+RECENT_EVENTS=""
+if [ "$TOTAL_TECH_EVENTS" -gt 0 ]; then
+  RECENT_EVENTS=$(jq -r ".[\"$MONTH-$DAY\"][] | select(.year >= 2015) | \"**\\(.year)** — \\(.event)\"" "$DATA_DIR/tech-history.json" 2>/dev/null | head -5)
+fi
 
 TOTAL_QUOTES=$(jq 'length' "$DATA_DIR/quotes.json")
 QUOTE_INDEX=$(( FEATURE_INDEX % TOTAL_QUOTES ))
@@ -120,17 +130,50 @@ TIL_FACT=$(jq -r ".[$TIL_INDEX]" "$DATA_DIR/til.json")
 
 BUILD_NUM=$((FEATURE_INDEX + 1))
 
-STREAK_ICON="🔥"
+STREAK_ICON="✨"
 if [ "$STREAK" -ge 30 ]; then
-  STREAK_ICON="🔥"
+  STREAK_ICON="🌟"
 elif [ "$STREAK" -ge 7 ]; then
   STREAK_ICON="🔥"
+elif [ "$STREAK" -ge 3 ]; then
+  STREAK_ICON="💪"
 fi
+
+# Day-based greeting
+case $DAY_OF_WEEK in
+  1) GREETING="Happy Monday" ;;
+  2) GREETING="Tuesday push" ;;
+  3) GREETING="Midweek grind" ;;
+  4) GREETING="Thursday momentum" ;;
+  5) GREETING="Friday energy" ;;
+  6) GREETING="Weekend builder" ;;
+  7) GREETING="Sunday reflection" ;;
+esac
+
+# Find prev/next entries
+SORTED_FILES=$(ls "$CONTENT_DIR"/*.md 2>/dev/null | grep -v "week-\|recap" | sort)
+PREV_FILE=""
+NEXT_FILE=""
+PREV_SET=0
+for sf in $SORTED_FILES; do
+  sfname=$(basename "$sf" .md)
+  if [ "$sfname" = "$DATE_STR" ]; then
+    PREV_SET=1
+    continue
+  fi
+  if [ "$PREV_SET" -eq 0 ]; then
+    PREV_FILE="$sfname"
+  else
+    if [ -z "$NEXT_FILE" ]; then
+      NEXT_FILE="$sfname"
+    fi
+  fi
+done
 
 cat > "$CONTENT_DIR/$DATE_STR.md" << EOF
 # Day $DAY_OF_YEAR of $YEAR — $DAY_NAME, $MONTH_NAME $DAY
 
-Morning, Ayoola. $STREAK_ICON $STREAK-day streak.
+$GREETING, Ayoola. $STREAK_ICON $STREAK-day streak.
 
 > *"$QUOTE"*
 
@@ -187,31 +230,82 @@ for ((i=1; i<=20; i++)); do
 done
 GOAL_PCT=$(awk "BEGIN {printf \"%.1f\", ($BUILD_NUM / $YEAR_GOAL) * 100}")
 
+# Create Wikipedia search link from event keywords
+TECH_KEYWORDS=$(echo "$TECH_EVENT" | head -c 80 | sed 's/[^a-zA-Z0-9 ]//g' | sed 's/  */+/g' | sed 's/^+//;s/+$//')
+TECH_WIKI_URL="https://en.wikipedia.org/w/index.php?search=${TECH_KEYWORDS// /+}"
+
 cat >> "$CONTENT_DIR/$DATE_STR.md" << EOF
 
 ---
 
-## Build #$BUILD_NUM: $FEATURE_TITLE
+<div class="tech-history-section">
 
-$FEATURE_DESC
+## 📜 Tech History — $MONTH_NAME $DAY
+
+**$TECH_YEAR** — $TECH_EVENT
+
+<small>[Learn more on Wikipedia]($TECH_WIKI_URL)</small>
+
+</div>
+
+EOF
+
+# Add "Today" section with recent events if available
+if [ -n "$RECENT_EVENTS" ]; then
+  cat >> "$CONTENT_DIR/$DATE_STR.md" << EOF
+
+<div class="today-section">
+
+## 📰 Today in Tech — $MONTH_NAME $DAY
+
+$RECENT_EVENTS
+
+</div>
+
+EOF
+fi
+
+cat >> "$CONTENT_DIR/$DATE_STR.md" << EOF
 
 ---
 
-🎯 **Year Goal:** $BUILD_NUM / $YEAR_GOAL builds
+🎯 **Year Goal:** $BUILD_NUM / $YEAR_GOAL entries
 
 $GOAL_BAR $GOAL_PCT%
 
-[View all builds](/)
+[View all entries](/)
 
 ---
 
-*Daily build #$BUILD_NUM — $DATE_STR*
+<nav class="entry-nav">
+EOF
+
+if [ -n "$PREV_FILE" ]; then
+  cat >> "$CONTENT_DIR/$DATE_STR.md" << EOF
+← [Previous](./${PREV_FILE}.md)
+EOF
+fi
+
+cat >> "$CONTENT_DIR/$DATE_STR.md" << EOF
+<span class="entry-nav-spacer"></span>
+EOF
+
+if [ -n "$NEXT_FILE" ]; then
+  cat >> "$CONTENT_DIR/$DATE_STR.md" << EOF
+[Next](./${NEXT_FILE}.md) →
+EOF
+fi
+
+cat >> "$CONTENT_DIR/$DATE_STR.md" << EOF
+</nav>
+
+*Daily entry #$BUILD_NUM — $DATE_STR*
 *— [Ayoola Damisile](https://github.com/Ayoola-tech2024)*
 EOF
 
-echo "✅ Created content for $DATE_STR (Build #$BUILD_NUM: $FEATURE_TITLE)"
+echo "✅ Created content for $DATE_STR (Tech: $TECH_YEAR)"
 
-NEXT_INDEX=$(( (FEATURE_INDEX + 1) % TOTAL_FEATURES ))
+NEXT_INDEX=$(( FEATURE_INDEX + 1 ))
 jq -n \
   --arg fi "$NEXT_INDEX" \
   --arg ld "$DATE_STR" \
@@ -230,11 +324,11 @@ generate_index() {
 layout: default
 ---
 
-# Daily Build Journal — $TARGET_YEAR
+# Daily Entry Journal — $TARGET_YEAR
 
 <span class="hero-subtitle">by **Ayoola Damisile**</span>
 
-$STREAK_ICON **$STREAK-day streak** &middot; 🎯 **$BUILD_NUM / $YEAR_GOAL** builds
+$STREAK_ICON **$STREAK-day streak** &middot; 🎯 **$BUILD_NUM / $YEAR_GOAL** entries
 
 ---
 
@@ -252,7 +346,7 @@ EOF
     esac
 
     echo "## $month_name_display" >> "$INDEX_FILE"
-    echo "| # | Date | Build |" >> "$INDEX_FILE"
+    echo "| # | Date | Entry |" >> "$INDEX_FILE"
     echo "|---|---|---|" >> "$INDEX_FILE"
 
     local counter=1
@@ -260,20 +354,79 @@ EOF
       local fname
       fname=$(basename "$f" .md)
       local title
-      title=$(head -100 "$f" | grep "^## Build" | sed 's/## Build #[0-9]*: //' | head -1)
+      title=$(head -100 "$f" | grep -A1 "^## 📜 Tech History" | tail -1 | sed 's/^\*\*[0-9]*\*\* — //' | head -1)
       if [ -z "$title" ]; then
         title="Daily entry"
       fi
-      echo "| $counter | [$fname](./content/${fname}.md) | $title |" >> "$INDEX_FILE"
+      echo "| $counter | [$fname](./content/${fname}.md) | <span class=\"title-truncate\">$title</span> |" >> "$INDEX_FILE"
       counter=$((counter + 1))
     done
     echo "" >> "$INDEX_FILE"
   done
 
+  # Add streak calendar
+  echo "## Streak Calendar" >> "$INDEX_FILE"
+  echo '<div class="streak-calendar">' >> "$INDEX_FILE"
+
+  for ((d=1; d<=DAY_OF_YEAR; d++)); do
+    CAL_DATE=$(date -d "$TARGET_YEAR-01-01 + $((d-1)) days" +%Y-%m-%d 2>/dev/null)
+    if [ -f "$CONTENT_DIR/$CAL_DATE.md" ]; then
+      if [ "$CAL_DATE" = "$DATE_STR" ]; then
+        echo '<div class="streak-day filled today" title="'"$CAL_DATE"'"></div>' >> "$INDEX_FILE"
+      else
+        echo '<div class="streak-day filled" title="'"$CAL_DATE"'"></div>' >> "$INDEX_FILE"
+      fi
+    else
+      echo '<div class="streak-day" title="'"$CAL_DATE"'"></div>' >> "$INDEX_FILE"
+    fi
+  done
+
+  echo '</div>' >> "$INDEX_FILE"
+
   echo "✅ Index page generated"
 }
 
 generate_index "$YEAR"
+
+generate_rss() {
+  RSS_FILE="$REPO_ROOT/feed.xml"
+
+  cat > "$RSS_FILE" << 'RSSEOF'
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Daily Entry Journal</title>
+  <link>https://daily-commit.vercel.app</link>
+  <description>One commit, every day — a year-long building journey</description>
+  <language>en</language>
+  <atom:link href="https://daily-commit.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+RSSEOF
+
+  echo "  <lastBuildDate>$(date -R)</lastBuildDate>" >> "$RSS_FILE"
+
+  for f in $(ls "$CONTENT_DIR"/*.md 2>/dev/null | grep -v "week-\|recap" | sort -r | head -20); do
+    local fname title
+    fname=$(basename "$f" .md)
+    title=$(head -100 "$f" | grep -A1 "^## 📜 Tech History" | tail -1 | sed 's/^\*\*[0-9]*\*\* — //' | head -1)
+
+    if [ -n "$title" ]; then
+      cat >> "$RSS_FILE" << EOF
+<item>
+  <title>Day $fname — $title</title>
+  <link>https://daily-commit.vercel.app/content/$fname.html</link>
+  <pubDate>$(date -R -d "$fname")</pubDate>
+  <guid>https://daily-commit.vercel.app/content/$fname.html</guid>
+</item>
+EOF
+    fi
+  done
+
+  echo "</channel>" >> "$RSS_FILE"
+  echo "</rss>" >> "$RSS_FILE"
+  echo "✅ RSS feed generated"
+}
+
+generate_rss
 
 BLOCKS_FILLED=$(( DAY_OF_YEAR * 20 / TOTAL_DAYS ))
 PROGRESS_BAR=""
@@ -288,7 +441,7 @@ done
 cat > "$REPO_ROOT/README.md" << EOF
 # Daily Commit — $YEAR
 
-A daily build journal. One commit, every day.
+A daily entry journal. One commit, every day.
 
 $STREAK_ICON **$STREAK-day streak** · 🎯 **$BUILD_NUM / $YEAR_GOAL** builds
 
@@ -317,7 +470,7 @@ if [ "$DAY_OF_WEEK" = "7" ]; then
     WEEK_COUNT=0
     while IFS= read -r wf; do
       if [ -n "$wf" ]; then
-        wt=$(head -100 "$wf" | grep "^## Build" | sed 's/## Build #[0-9]*: //' | head -1)
+        wt=$(head -100 "$wf" | grep -A1 "^## 📜 Tech History" | tail -1 | sed 's/^\*\*[0-9]*\*\* — //' | head -1)
         wd=$(basename "$wf" .md)
         if [ -n "$wt" ]; then
           WEEKLY_BUILDS="$WEEKLY_BUILDS- $wd: $wt"$'\n'
@@ -360,7 +513,7 @@ if [ "$MONTH" = "12" ] && [ "$DAY" = "31" ]; then
     TOTAL_CONTENT_FILES=$(find "$CONTENT_DIR" -maxdepth 1 -name "????-??-??.md" | wc -l)
 
     cat > "$RECAP_FILE" << EOF
-# $YEAR — The Daily Build Year
+# $YEAR — The Daily Entry Year
 
 ---
 
@@ -386,16 +539,16 @@ fi
 git add -A
 
 if [ "$MONTH" = "08" ] && [ "$DAY" = "29" ]; then
-  COMMIT_MSG="🎂 Birthday build — $FEATURE_TITLE"
+  COMMIT_MSG="🎂 Birthday build — $TECH_YEAR $TECH_EVENT"
 elif [ -n "$HOLIDAY_MSG" ]; then
   HOLIDAY_NAME=$(echo "$HOLIDAY_MSG" | sed 's/^[^ ]* \*\*\([^*]*\)\*\*.*/\1/')
-  COMMIT_MSG="$HOLIDAY_NAME — $FEATURE_TITLE"
+  COMMIT_MSG="$HOLIDAY_NAME — $TECH_YEAR"
 elif [ "$MONTH" = "01" ] && [ "$DAY" = "01" ]; then
   COMMIT_MSG="🎆 Happy New Year $YEAR! Build #1"
 elif [ "$DAY" = "01" ]; then
-  COMMIT_MSG="🎉 $MONTH_NAME — $FEATURE_TITLE"
+  COMMIT_MSG="🎉 $MONTH_NAME — $TECH_YEAR"
 else
-  COMMIT_MSG="Day $DAY_OF_YEAR — $FEATURE_TITLE"
+  COMMIT_MSG="Day $DAY_OF_YEAR — $TECH_YEAR"
 fi
 
 git commit -m "$COMMIT_MSG"

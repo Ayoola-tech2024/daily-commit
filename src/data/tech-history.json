@@ -1,0 +1,1125 @@
+{
+  "01-01": [
+    {"year": 1979, "event": "Microsoft moves from Albuquerque to Bellevue, Washington, setting the stage for its rise as a software giant."},
+    {"year": 1984, "event": "The Bell System is broken up by the US government, ending AT&T's monopoly on telephone service and ushering in the era of competitive telecoms."},
+    {"year": 1995, "event": "The World Trade Organization (WTO) is established, with major implications for global digital trade and intellectual property law."}
+  ],
+  "01-02": [
+    {"year": 1982, "event": "The first commercial CD player, Sony's CDP-101, goes on sale in Japan, launching the digital audio revolution."},
+    {"year": 2000, "event": "The world narrowly avoids widespread Y2K computer failures as systems transition to the year 2000 with minimal disruption."}
+  ],
+  "01-03": [
+    {"year": 2009, "event": "Satoshi Nakamoto mines the Bitcoin genesis block (block #0), launching the world's first cryptocurrency and blockchain network."}
+  ],
+  "01-04": [
+    {"year": 2004, "event": "NASA's Mars rover Spirit lands successfully on Mars, beginning its mission to explore the Red Planet's geology."},
+    {"year": 2010, "event": "Apple unveils the iPad, creating the modern tablet market and redefining personal computing."}
+  ],
+  "01-05": [
+    {"year": 2005, "event": "Eris, the most massive dwarf planet in the Solar System, is discovered by a team led by Mike Brown at Caltech."}
+  ],
+  "01-06": [
+    {"year": 1998, "event": "The Lunar Prospector spacecraft is launched by NASA on a mission to map the Moon's surface composition and search for water ice."}
+  ],
+  "01-07": [
+    {"year": 2007, "event": "Steve Jobs introduces the iPhone at Macworld, calling it 'an iPod, a phone, and an internet communicator' — a single device that changed the world."}
+  ],
+  "01-08": [
+    {"year": 2002, "event": "President George W. Bush signs the No Child Left Behind Act into law, mandating standardized testing that would drive edtech innovation."}
+  ],
+  "01-09": [
+    {"year": 2007, "event": "Steve Jobs officially unveils the original iPhone at the Macworld Conference & Expo in San Francisco."},
+    {"year": 1992, "event": "The first web browser with a graphical user interface, Erwise, is released by a team of Finnish students."}
+  ],
+  "01-10": [
+    {"year": 2008, "event": "Amazon's Kindle DX is announced with a larger 9.7-inch screen, paving the way for digital textbooks."},
+    {"year": 1996, "event": "The first web server outside of Europe and North America goes live in Japan, marking the internet's true global expansion."}
+  ],
+  "01-11": [
+    {"year": 2003, "event": "The recording industry launches copyright infringement lawsuits against hundreds of individual file-sharers, changing digital media enforcement."}
+  ],
+  "01-12": [
+    {"year": 2003, "event": "IBM announces it has developed the most powerful supercomputer for the Japanese government, capable of 85 teraflops."}
+  ],
+  "01-13": [
+    {"year": 1998, "event": "America Online (AOL) announces it will acquire Netscape Communications for $4.2 billion, a landmark internet merger."}
+  ],
+  "01-14": [
+    {"year": 2008, "event": "Nokia announces the acquisition of Trolltech, the Norwegian company behind the Qt framework."}
+  ],
+  "01-15": [
+    {"year": 2001, "event": "Wikipedia is launched by Jimmy Wales and Larry Sanger, becoming the world's largest and most-used reference work."}
+  ],
+  "01-16": [
+    {"year": 2004, "event": "NASA's Opportunity rover lands on Mars, beginning a mission that would last nearly 15 years."}
+  ],
+  "01-17": [
+    {"year": 2008, "event": "Steve Jobs unveils the MacBook Air, the world's thinnest laptop, pulled from a manila envelope to demonstrate its slim profile."}
+  ],
+  "01-18": [
+    {"year": 2012, "event": "Wikipedia goes dark for 24 hours to protest the Stop Online Piracy Act (SOPA), one of the largest online protests in history."}
+  ],
+  "01-19": [
+    {"year": 2012, "event": "Google announces major privacy policy changes, consolidating 60+ privacy policies into one across all its services."}
+  ],
+  "01-20": [
+    {"year": 2004, "event": "NASA's Stardust spacecraft successfully collects samples from Comet Wild 2, the first US mission to return comet samples."}
+  ],
+  "01-21": [
+    {"year": 1976, "event": "The Concorde begins commercial supersonic flights between London and Bahrain, and Paris and Rio de Janeiro."}
+  ],
+  "01-22": [
+    {"year": 1984, "event": "Apple releases the Macintosh during Super Bowl XVIII with the famous '1984' commercial directed by Ridley Scott."}
+  ],
+  "01-23": [
+    {"year": 1996, "event": "Java 1.0 is officially released by Sun Microsystems, bringing the promise of 'write once, run anywhere' to software development."}
+  ],
+  "01-24": [
+    {"year": 1984, "event": "The first Apple Macintosh goes on sale, featuring a graphical user interface and mouse that would define personal computing for decades."}
+  ],
+  "01-25": [
+    {"year": 1994, "event": "Microsoft releases Windows 3.1 in China, marking a major push into the Chinese PC market."}
+  ],
+  "01-26": [
+    {"year": 2005, "event": "The Microsoft Xbox 360 is officially unveiled on MTV, launching the seventh generation of video game consoles."}
+  ],
+  "01-27": [
+    {"year": 2010, "event": "Steve Jobs unveils the iPad, Apple's first tablet, creating an entirely new product category."}
+  ],
+  "01-28": [
+    {"year": 2001, "event": "Microsoft releases the Xbox gaming console in North America, entering the video game hardware market."},
+    {"year": 1986, "event": "The Space Shuttle Challenger disaster occurs 73 seconds after launch, killing all seven crew members."}
+  ],
+  "01-29": [
+    {"year": 2007, "event": "Steve Jobs introduces the iPhone at Macworld Expo San Francisco."}
+  ],
+  "01-30": [
+    {"year": 2007, "event": "Microsoft releases Windows Vista to the general public, alongside the Office 2007 suite."}
+  ],
+  "01-31": [
+    {"year": 2007, "event": "Microsoft officially releases Windows Vista and Office 2007 to consumers worldwide."},
+    {"year": 2010, "event": "The first major e-book price war erupts as Amazon and Macmillan battle over pricing, reshaping the digital publishing industry."}
+  ],
+  "02-01": [
+    {"year": 2003, "event": "The Space Shuttle Columbia disintegrates upon re-entry, killing all seven astronauts and grounding the shuttle fleet for over two years."},
+    {"year": 2004, "event": "Facebook (then called 'TheFacebook') is founded by Mark Zuckerberg, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes at Harvard University."}
+  ],
+  "02-02": [
+    {"year": 2002, "event": "The first camera phone is released in Europe, the Sharp J-SH04, featuring a 0.1-megapixel CMOS sensor."}
+  ],
+  "02-03": [
+    {"year": 2006, "event": "NASA's Stardust spacecraft returns samples from Comet Wild 2 to Earth, the first cometary sample return mission."}
+  ],
+  "02-04": [
+    {"year": 2004, "event": "Mark Zuckerberg launches TheFacebook.com from his Harvard dorm room, beginning the social network that would connect billions."},
+    {"year": 2006, "event": "Google announces Google Apps for Your Domain (now Google Workspace), bringing hosted email and productivity tools to businesses."}
+  ],
+  "02-05": [
+    {"year": 1994, "event": "Byron De La Beckwith is convicted for the 1963 murder of Medgar Evers, a landmark case in digital evidence collection."}
+  ],
+  "02-06": [
+    {"year": 1993, "event": "Arthur Ashe, tennis legend and human rights activist, dies of AIDS-related pneumonia at age 49."}
+  ],
+  "02-07": [
+    {"year": 2008, "event": "The Space Shuttle Atlantis launches on mission STS-122, delivering the European Space Agency's Columbus laboratory to the International Space Station."}
+  ],
+  "02-08": [
+    {"year": 1996, "event": "The US Congress passes the Communications Decency Act, including Section 230 that would become the foundation of internet speech law."}
+  ],
+  "02-09": [
+    {"year": 2018, "event": "Intel discloses widespread CPU vulnerabilities (Meltdown and Spectre) affecting nearly every processor made in the last 20 years, forcing industry-wide security overhauls."}
+  ],
+  "02-10": [
+    {"year": 2009, "event": "The first collision between two satellites occurs when Iridium 33 and Kosmos-2251 collide at 11.7 km/s over Siberia, creating thousands of debris fragments."}
+  ],
+  "02-11": [
+    {"year": 2001, "event": "The Human Genome Project publishes the first draft of the human genome, a landmark achievement in bioinformatics and computing."}
+  ],
+  "02-12": [
+    {"year": 2002, "event": "Former US President Jimmy Carter arrives in Cuba for a five-day visit, the first US president to visit since 1928."}
+  ],
+  "02-13": [
+    {"year": 2010, "event": "Facebook announces the 'Like' button, which would become the most recognized social media interaction in the world."}
+  ],
+  "02-14": [
+    {"year": 2005, "event": "YouTube is founded by Chad Hurley, Steve Chen, and Jawed Karim, creating the world's largest video-sharing platform."}
+  ],
+  "02-15": [
+    {"year": 2005, "event": "YouTube.com is officially activated, though the first video would not be uploaded until April."}
+  ],
+  "02-16": [
+    {"year": 2006, "event": "The last Sony CRT television rolls off the production line, marking the end of the cathode-ray tube era."}
+  ],
+  "02-17": [
+    {"year": 2008, "event": "Kosovo declares independence from Serbia, becoming the youngest country in Europe."}
+  ],
+  "02-18": [
+    {"year": 2001, "event": "FBI agent Robert Hanssen is arrested for spying for Russia, one of the most damaging espionage cases in US history."}
+  ],
+  "02-19": [
+    {"year": 2008, "event": "Fidel Castro announces he will resign as President of Cuba after nearly 50 years in power."}
+  ],
+  "02-20": [
+    {"year": 1962, "event": "John Glenn becomes the first American to orbit Earth aboard Friendship 7, a milestone in the space race."}
+  ],
+  "02-21": [
+    {"year": 2008, "event": "Microsoft releases Windows Server 2008 and the first beta of Windows 7."}
+  ],
+  "02-22": [
+    {"year": 1996, "event": "The first web browser with tabbed browsing, InternetWorks, is released by BookLink Technologies."}
+  ],
+  "02-23": [
+    {"year": 2004, "event": "NASA's Mars Express orbiter confirms the presence of water ice at Mars' south pole."}
+  ],
+  "02-24": [
+    {"year": 2009, "event": "WhatsApp is founded by Jan Koum and Brian Acton, growing to become the world's most popular messaging app with over 2 billion users."}
+  ],
+  "02-25": [
+    {"year": 2008, "event": "NASA's MESSENGER spacecraft performs its first flyby of Mercury, capturing images of previously unseen terrain."}
+  ],
+  "02-26": [
+    {"year": 1997, "event": "Dolly the sheep is cloned, the first mammal successfully cloned from an adult somatic cell."}
+  ],
+  "02-27": [
+    {"year": 2007, "event": "Windows Vista is officially released to consumers worldwide by Microsoft."}
+  ],
+  "02-28": [
+    {"year": 2003, "event": "The first version of the Android operating system is developed by Android Inc. before its acquisition by Google."}
+  ],
+  "03-01": [
+    {"year": 2009, "event": "Uber is founded by Travis Kalanick and Garrett Camp, revolutionizing urban transportation through a smartphone app."}
+  ],
+  "03-02": [
+    {"year": 2004, "event": "NASA's Spirit rover discovers evidence of past water on Mars at Gusev Crater."}
+  ],
+  "03-03": [
+    {"year": 1994, "event": "The first commercial website to accept credit card payments launches, marking the birth of e-commerce."}
+  ],
+  "03-04": [
+    {"year": 2009, "event": "The International Space Station's crew is doubled to six members, enabling more scientific research in space."}
+  ],
+  "03-05": [
+    {"year": 2001, "event": "The first draft of the human genome is published in Nature, a milestone enabled by massive parallel computing."}
+  ],
+  "03-06": [
+    {"year": 2006, "event": "NASA's Cassini spacecraft discovers geysers of water ice and vapor erupting from Saturn's moon Enceladus."}
+  ],
+  "03-07": [
+    {"year": 2004, "event": "The first version of the social networking site Orkut is launched by Google."}
+  ],
+  "03-08": [
+    {"year": 2003, "event": "NASA's Mars Exploration Rover Spirit is launched, beginning humanity's most ambitious robotic exploration of Mars."}
+  ],
+  "03-09": [
+    {"year": 2011, "event": "The Space Shuttle Discovery completes its final mission, landing at Kennedy Space Center after 39 flights."}
+  ],
+  "03-10": [
+    {"year": 2006, "event": "NASA's Mars Reconnaissance Orbiter enters orbit around Mars, beginning its mission to study the planet's climate and geology."}
+  ],
+  "03-11": [
+    {"year": 2011, "event": "A 9.0 magnitude earthquake and tsunami strike Japan, causing the Fukushima Daiichi nuclear disaster and major tech supply chain disruptions."}
+  ],
+  "03-12": [
+    {"year": 1989, "event": "Tim Berners-Lee submits his proposal for the World Wide Web while working at CERN, laying the foundation for the modern internet."}
+  ],
+  "03-13": [
+    {"year": 2008, "event": "The Large Hadron Collider's first beam test is successfully completed at CERN."}
+  ],
+  "03-14": [
+    {"year": 2018, "event": "Stephen Hawking, the world's most famous cosmologist and physicist, dies at age 76. His work on black holes and relativity reshaped modern physics."}
+  ],
+  "03-15": [
+    {"year": 1985, "event": "The first Internet domain name, symbolics.com, is registered by Symbolics Computer Corporation."}
+  ],
+  "03-16": [
+    {"year": 1966, "event": "Gemini 8 performs the first docking of two spacecraft in orbit, a critical step for the Apollo program."}
+  ],
+  "03-17": [
+    {"year": 2003, "event": "NASA's Spitzer Space Telescope is launched, studying the universe in infrared for over 16 years."}
+  ],
+  "03-18": [
+    {"year": 1965, "event": "Alexei Leonov performs the first spacewalk, lasting 12 minutes outside the Voskhod 2 spacecraft."}
+  ],
+  "03-19": [
+    {"year": 2004, "event": "NASA's Mars Exploration Rover Opportunity lands on Mars, discovering evidence that water once flowed on the planet."}
+  ],
+  "03-20": [
+    {"year": 2009, "event": "Apple releases iPhone OS 3.0, adding copy-paste, MMS, and landscape keyboard to the iPhone."}
+  ],
+  "03-21": [
+    {"year": 2006, "event": "Jack Dorsey sends the first public tweet: 'just setting up my twttr', launching the social media platform that would change how the world communicates."}
+  ],
+  "03-22": [
+    {"year": 1993, "event": "The Intel Pentium processor is formally introduced, with 3.1 million transistors and 60MHz clock speed."}
+  ],
+  "03-23": [
+    {"year": 2007, "event": "Google announces its acquisition of DoubleClick for $3.1 billion, the largest acquisition in Google's history at the time."}
+  ],
+  "03-24": [
+    {"year": 1998, "event": "The first version of the Linux kernel 2.0 is released, bringing significant performance improvements."}
+  ],
+  "03-25": [
+    {"year": 2007, "event": "The European Union launches the Galileo satellite navigation system, Europe's answer to GPS."}
+  ],
+  "03-26": [
+    {"year": 1995, "event": "The Schengen Area begins operations in seven European countries, removing border controls."}
+  ],
+  "03-27": [
+    {"year": 2005, "event": "The first version of the video game Half-Life 2: Lost Coast is released, showcasing high dynamic range rendering."}
+  ],
+  "03-28": [
+    {"year": 2005, "event": "NASA's Mars Reconnaissance Orbiter is launched, the most powerful orbiter ever sent to Mars."}
+  ],
+  "03-29": [
+    {"year": 2009, "event": "The first version of the Chrome OS operating system is demonstrated by Google."}
+  ],
+  "03-30": [
+    {"year": 2007, "event": "Microsoft releases Windows Vista Service Pack 1 to manufacturing."}
+  ],
+  "03-31": [
+    {"year": 2003, "event": "The first version of the Skype VoIP service is released, revolutionizing free internet calling."}
+  ],
+  "04-01": [
+    {"year": 1976, "event": "Apple Computer is founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in Cupertino, California, starting in Jobs' garage."},
+    {"year": 2004, "event": "Google launches Gmail on April Fools' Day with 1GB of free storage — an unheard-of amount at the time that many thought was a joke."}
+  ],
+  "04-02": [
+    {"year": 2003, "event": "NASA's MER-A (Spirit) rover launches from Cape Canaveral, beginning its journey to Mars."}
+  ],
+  "04-03": [
+    {"year": 1973, "event": "Martin Cooper of Motorola makes the first handheld mobile phone call, using the prototype DynaTAC 8000X."}
+  ],
+  "04-04": [
+    {"year": 1975, "event": "Microsoft is founded by Bill Gates and Paul Allen in Albuquerque, New Mexico, with the vision of 'a computer on every desk and in every home.'"},
+    {"year": 2010, "event": "Apple releases the first-generation iPad in the United States, defining the tablet computing market."}
+  ],
+  "04-05": [
+    {"year": 1993, "event": "NVIDIA is founded by Jensen Huang, Chris Malachowsky, and Curtis Priem, later becoming the world's leading GPU and AI chip company."}
+  ],
+  "04-06": [
+    {"year": 2009, "event": "NASA's Kepler Space Telescope is launched on a mission to discover Earth-sized exoplanets in habitable zones."}
+  ],
+  "04-07": [
+    {"year": 2005, "event": "The first video is uploaded to YouTube — 'Me at the zoo' by co-founder Jawed Karim, marking the beginning of the video-sharing era."}
+  ],
+  "04-08": [
+    {"year": 2006, "event": "The first version of the Twitter API is released, allowing developers to build third-party Twitter clients."}
+  ],
+  "04-09": [
+    {"year": 2010, "event": "Apple releases the original iPad in the US, selling over 300,000 units on launch day."}
+  ],
+  "04-10": [
+    {"year": 2008, "event": "GitHub is founded by Tom Preston-Werner, Chris Wanstrath, and PJ Hyett, becoming the world's largest host of source code."}
+  ],
+  "04-11": [
+    {"year": 2003, "event": "Apple launches the iTunes Music Store, selling songs for 99¢ each and reshaping the music industry."},
+    {"year": 2008, "event": "NASA's Phoenix Mars Lander launches on a mission to search for water ice near the Martian north pole."}
+  ],
+  "04-12": [
+    {"year": 1961, "event": "Yuri Gagarin becomes the first human in space, orbiting Earth aboard Vostok 1 for 108 minutes."},
+    {"year": 1981, "event": "NASA's Space Shuttle Columbia launches on STS-1, the first orbital flight of the Space Shuttle program."}
+  ],
+  "04-13": [
+    {"year": 2005, "event": "The first video is uploaded to the internet via YouTube by co-founder Jawed Karim."}
+  ],
+  "04-14": [
+    {"year": 2005, "event": "The first video goes live on YouTube, a 19-second clip titled 'Me at the zoo'."}
+  ],
+  "04-15": [
+    {"year": 2012, "event": "Instagram is acquired by Facebook for $1 billion in cash and stock, one of the largest social media acquisitions."}
+  ],
+  "04-16": [
+    {"year": 2005, "event": "NASA's Cassini spacecraft discovers the first evidence of liquid water on Saturn's moon Titan."}
+  ],
+  "04-17": [
+    {"year": 2008, "event": "Google completes its acquisition of DoubleClick for $3.1 billion, the largest Google acquisition at the time."}
+  ],
+  "04-18": [
+    {"year": 2006, "event": "The first version of Twitter's retweet feature is tested by users."}
+  ],
+  "04-19": [
+    {"year": 1965, "event": "Gordon Moore publishes his famous observation that would become 'Moore's Law', predicting transistor density doubles every two years."}
+  ],
+  "04-20": [
+    {"year": 2004, "event": "NASA's Gravity Probe B is launched to test Einstein's general theory of relativity."}
+  ],
+  "04-21": [
+    {"year": 1967, "event": "The first successful heart transplant is performed by Dr. Christiaan Barnard in South Africa."}
+  ],
+  "04-22": [
+    {"year": 2009, "event": "The first version of the Android operating system is released to the public on the HTC Dream (G1)."}
+  ],
+  "04-23": [
+    {"year": 2005, "event": "The very first YouTube video, 'Me at the zoo' by Jawed Karim, is uploaded to the platform."},
+    {"year": 2006, "event": "Spotify is founded by Daniel Ek and Martin Lorentzon, changing how the world consumes music through streaming."}
+  ],
+  "04-24": [
+    {"year": 2007, "event": "Microsoft acquires aQuantive for $6.3 billion, at the time the largest acquisition in Microsoft's history."}
+  ],
+  "04-25": [
+    {"year": 2008, "event": "NASA's Phoenix Mars Lander enters the Martian atmosphere, successfully landing near the north pole to search for water ice."}
+  ],
+  "04-26": [
+    {"year": 1986, "event": "The Chernobyl Nuclear Power Plant disaster occurs, becoming the worst nuclear accident in history."}
+  ],
+  "04-27": [
+    {"year": 2012, "event": "Apple releases the third-generation iPad in the US."}
+  ],
+  "04-28": [
+    {"year": 1996, "event": "The first version of the HTTP/1.1 specification is published as RFC 2068."}
+  ],
+  "04-29": [
+    {"year": 2008, "event": "Yahoo! rejects a $44.6 billion acquisition offer from Microsoft, a pivotal moment in internet company history."}
+  ],
+  "04-30": [
+    {"year": 1993, "event": "CERN announces that the World Wide Web technology will be available for anyone to use on a royalty-free basis."}
+  ],
+  "05-01": [
+    {"year": 1964, "event": "The first BASIC program runs on the Dartmouth Time-Sharing System, birth of the language that would launch the PC revolution."},
+    {"year": 2009, "event": "NASA's Kepler Space Telescope launches on a mission to discover exoplanets, eventually finding over 2,600 confirmed worlds."}
+  ],
+  "05-02": [
+    {"year": 1996, "event": "The first web browser with integrated email, Netscape Messenger, is released as part of Netscape Navigator 3.0."}
+  ],
+  "05-03": [
+    {"year": 2007, "event": "The first version of the Android operating system, Android 1.0 alpha, is released as a software development kit."}
+  ],
+  "05-04": [
+    {"year": 1998, "event": "Google is incorporated as a private company by Larry Page and Sergey Brin in Menlo Park, California."},
+    {"year": 2003, "event": "NASA's Spirit rover lands on Mars, beginning its mission of exploration."}
+  ],
+  "05-05": [
+    {"year": 1961, "event": "Alan Shepard becomes the first American in space aboard Freedom 7, a 15-minute suborbital flight."}
+  ],
+  "05-06": [
+    {"year": 2002, "event": "SpaceX is founded by Elon Musk with the goal of reducing space transportation costs to enable the colonization of Mars."}
+  ],
+  "05-07": [
+    {"year": 1946, "event": "Sony (then Tokyo Tsushin Kogyo) is founded in Tokyo, beginning as a small electronics shop that would become a global technology giant."}
+  ],
+  "05-08": [
+    {"year": 1999, "event": "The first internet-connected Coke machine goes live at Carnegie Mellon University."}
+  ],
+  "05-09": [
+    {"year": 2006, "event": "The first version of the Firefox 2.0 browser is released by Mozilla."}
+  ],
+  "05-10": [
+    {"year": 1997, "event": "IBM's Deep Blue supercomputer defeats world chess champion Garry Kasparov in a six-game match, a landmark moment for artificial intelligence."}
+  ],
+  "05-11": [
+    {"year": 1997, "event": "IBM's Deep Blue defeats Garry Kasparov in the final game of their rematch, winning the match 3.5–2.5."}
+  ],
+  "05-12": [
+    {"year": 2008, "event": "A magnitude 7.9 earthquake strikes Sichuan, China, killing over 87,000 people and devastating the region."}
+  ],
+  "05-13": [
+    {"year": 2008, "event": "AMD demonstrates the first x86-based triple-core processor, the Phenom X3."}
+  ],
+  "05-14": [
+    {"year": 2000, "event": "The 'I Love You' computer virus spreads worldwide, infecting over 50 million computers in one day and causing billions in damage."}
+  ],
+  "05-15": [
+    {"year": 2010, "event": "Google launches the first version of Google TV, integrating web content with traditional television."}
+  ],
+  "05-16": [
+    {"year": 1994, "event": "The first version of the Linux kernel 1.0 is officially released by Linus Torvalds after three years of development."}
+  ],
+  "05-17": [
+    {"year": 2012, "event": "Facebook goes public on NASDAQ under the ticker FB in the largest tech IPO in history at the time."}
+  ],
+  "05-18": [
+    {"year": 2012, "event": "Facebook begins trading on NASDAQ at $38 per share, valuing the company at $104 billion."}
+  ],
+  "05-19": [
+    {"year": 2005, "event": "Star Wars Episode III: Revenge of the Sith is released, setting box office records and showcasing the latest in digital filmmaking."}
+  ],
+  "05-20": [
+    {"year": 2007, "event": "The first version of the iPhone's SDK is announced by Apple, opening iOS to third-party developers."}
+  ],
+  "05-21": [
+    {"year": 2007, "event": "Apple releases the iPhone's keyboard software development kit."}
+  ],
+  "05-22": [
+    {"year": 2012, "event": "Facebook acquires Instagram for $1 billion, a pivotal social media consolidation."}
+  ],
+  "05-23": [
+    {"year": 2007, "event": "The first version of the Android mobile operating system is demonstrated publicly by Google."}
+  ],
+  "05-24": [
+    {"year": 2002, "event": "NASA's Mars Odyssey orbiter begins its science mapping mission, discovering vast amounts of subsurface water ice."}
+  ],
+  "05-25": [
+    {"year": 1961, "event": "President John F. Kennedy announces the goal of landing a man on the Moon before the end of the decade, launching the Apollo program."},
+    {"year": 1977, "event": "Star Wars is released, revolutionizing filmmaking with computer-generated imagery and digital sound."}
+  ],
+  "05-26": [
+    {"year": 1996, "event": "The first version of the Java programming language, Java 1.0, is released to the public by Sun Microsystems."}
+  ],
+  "05-27": [
+    {"year": 2007, "event": "Microsoft releases the first version of Silverlight, a web application framework for rich internet applications."}
+  ],
+  "05-28": [
+    {"year": 2000, "event": "The first Bluetooth-enabled mobile phone, the Ericsson T36, is announced."}
+  ],
+  "05-29": [
+    {"year": 2007, "event": "The first version of the iPhone's web browser, Safari for iPhone, is demonstrated."}
+  ],
+  "05-30": [
+    {"year": 2008, "event": "NASA's Phoenix Mars Lander confirms the presence of water ice on Mars."}
+  ],
+  "05-31": [
+    {"year": 2009, "event": "Elon Musk reveals the Tesla Model S, an all-electric luxury sedan that would redefine the electric vehicle industry."}
+  ],
+  "06-01": [
+    {"year": 2008, "event": "Apple launches the iPhone 3G and the App Store, opening iOS to third-party developers and creating the app economy."}
+  ],
+  "06-02": [
+    {"year": 2003, "event": "NASA's Mars Exploration Rover MER-A (Spirit) is launched from Cape Canaveral."}
+  ],
+  "06-03": [
+    {"year": 1965, "event": "Edward White becomes the first American to walk in space during the Gemini 4 mission."}
+  ],
+  "06-04": [
+    {"year": 1989, "event": "The Tiananmen Square protests are violently suppressed in Beijing, leading to China's internet firewall and censorship systems."}
+  ],
+  "06-05": [
+    {"year": 1977, "event": "The Apple II computer goes on sale, becoming one of the first highly successful mass-produced microcomputers."}
+  ],
+  "06-06": [
+    {"year": 1984, "event": "Tetris, the most iconic puzzle game in history, is created by Soviet engineer Alexey Pajitnov."},
+    {"year": 2005, "event": "The first version of the Google Maps API is released, ushering in the era of location-based web applications."}
+  ],
+  "06-07": [
+    {"year": 2006, "event": "The first version of the Twitter API is publicly released, allowing developers to build applications on top of Twitter."}
+  ],
+  "06-08": [
+    {"year": 2009, "event": "NASA's Space Shuttle Atlantis launches on its final planned mission, STS-125, to service the Hubble Space Telescope."}
+  ],
+  "06-09": [
+    {"year": 2007, "event": "The first iPhone goes on sale in the United States, with thousands lining up outside Apple stores worldwide."}
+  ],
+  "06-10": [
+    {"year": 2008, "event": "Apple launches the iPhone 3G and the App Store, revolutionizing mobile software distribution."}
+  ],
+  "06-11": [
+    {"year": 2008, "event": "Apple introduces the iPhone 3G at WWDC, priced at $199 with a 3G connection and GPS."}
+  ],
+  "06-12": [
+    {"year": 2005, "event": "Apple announces it will transition from PowerPC to Intel processors, a seismic shift in Mac architecture."}
+  ],
+  "06-13": [
+    {"year": 2006, "event": "The first version of the Android operating system is demonstrated at the Google I/O conference."}
+  ],
+  "06-14": [
+    {"year": 2008, "event": "The first version of the Chrome browser is released by Google as a beta for Windows."}
+  ],
+  "06-15": [
+    {"year": 2006, "event": "The first version of Twitter's retweet feature is officially launched."}
+  ],
+  "06-16": [
+    {"year": 1911, "event": "IBM is founded in Endicott, New York as the Computing-Tabulating-Recording Company by Charles Ranlett Flint."},
+    {"year": 1977, "event": "Oracle Corporation is founded by Larry Ellison, Bob Miner, and Ed Oates in Santa Clara, California."},
+    {"year": 2015, "event": "Donald Trump announces his candidacy for US President from Trump Tower, a campaign that would heavily rely on social media."}
+  ],
+  "06-17": [
+    {"year": 2010, "event": "The first version of the Google Cloud Print service is announced, enabling cloud-based printing."}
+  ],
+  "06-18": [
+    {"year": 1999, "event": "NASA's Stardust spacecraft launches on a mission to collect samples from a comet."}
+  ],
+  "06-19": [
+    {"year": 2012, "event": "Tesla delivers the first Model S vehicles to customers, marking the beginning of the electric vehicle revolution."}
+  ],
+  "06-20": [
+    {"year": 2010, "event": "Apple releases iOS 4, adding multitasking, folders, and FaceTime to the iPhone."}
+  ],
+  "06-21": [
+    {"year": 2004, "event": "SpaceShipOne completes the first privately funded human spaceflight, reaching an altitude of 100.1 km."}
+  ],
+  "06-22": [
+    {"year": 2007, "event": "Apple releases the first version of Safari for Windows."}
+  ],
+  "06-23": [
+    {"year": 2005, "event": "Reddit is founded by Steve Huffman and Alexis Ohanian in Medford, Massachusetts, growing into the 'front page of the internet.'"}
+  ],
+  "06-24": [
+    {"year": 2010, "event": "Steve Jobs introduces the iPhone 4 at WWDC, featuring the Retina display and FaceTime."}
+  ],
+  "06-25": [
+    {"year": 2009, "event": "Michael Jackson dies at age 50, causing internet traffic to surge to unprecedented levels as the news spreads globally."},
+    {"year": 2012, "event": "The first version of the Windows 8 operating system is released to manufacturing."}
+  ],
+  "06-26": [
+    {"year": 2007, "event": "The first iPhone goes on sale in the US, with customers lining up for days at Apple stores nationwide."}
+  ],
+  "06-27": [
+    {"year": 2005, "event": "The first version of the Microsoft .NET Framework 2.0 is released."}
+  ],
+  "06-28": [
+    {"year": 2007, "event": "Apple releases the iPhone 3G, the second-generation iPhone with 3G connectivity and GPS."}
+  ],
+  "06-29": [
+    {"year": 2007, "event": "The original iPhone goes on sale in the United States, marking the beginning of the smartphone era."}
+  ],
+  "06-30": [
+    {"year": 2008, "event": "Apple releases the iPhone 3G in 22 countries, alongside the launch of the App Store with 500 apps."}
+  ],
+  "07-01": [
+    {"year": 2003, "event": "Tesla Motors is founded by Martin Eberhard and Marc Tarpenning, later joined by Elon Musk as chairman."},
+    {"year": 2008, "event": "The first version of the Android 1.0 SDK is released to developers by Google."}
+  ],
+  "07-02": [
+    {"year": 1964, "event": "President Lyndon B. Johnson signs the Civil Rights Act of 1964 into law, a landmark in digital equal access."}
+  ],
+  "07-03": [
+    {"year": 2007, "event": "The first iPhone goes on sale internationally in the UK, Germany, and France."}
+  ],
+  "07-04": [
+    {"year": 2012, "event": "Physicists at CERN announce the discovery of the Higgs boson particle, confirmed using the Large Hadron Collider."}
+  ],
+  "07-05": [
+    {"year": 1994, "event": "Amazon is founded by Jeff Bezos in Bellevue, Washington, originally as an online bookstore."}
+  ],
+  "07-06": [
+    {"year": 2007, "event": "Google announces Google Gears, a browser extension enabling offline access to web applications."}
+  ],
+  "07-07": [
+    {"year": 2005, "event": "A series of coordinated terrorist attacks strike London's public transport system, leading to widespread surveillance technology adoption."}
+  ],
+  "07-08": [
+    {"year": 2011, "event": "NASA's Space Shuttle Atlantis launches on its final mission, STS-135, the last flight of the 30-year Space Shuttle program."}
+  ],
+  "07-09": [
+    {"year": 2008, "event": "Apple launches the iPhone 3G and the App Store in 22 countries, creating the mobile app economy."}
+  ],
+  "07-10": [
+    {"year": 1997, "event": "NASA's Mars Pathfinder lands on Mars, deploying the Sojourner rover — the first wheeled vehicle on another planet."}
+  ],
+  "07-11": [
+    {"year": 1979, "event": "Skylab, NASA's first space station, re-enters Earth's atmosphere and disintegrates over the Indian Ocean and Australia."}
+  ],
+  "07-12": [
+    {"year": 2007, "event": "Microsoft releases Windows Vista Service Pack 1 to beta testers."}
+  ],
+  "07-13": [
+    {"year": 2003, "event": "NASA's Mars Exploration Rover Opportunity is launched, beginning its journey to the Red Planet."}
+  ],
+  "07-14": [
+    {"year": 1965, "event": "Mariner 4 makes the first successful flyby of Mars, sending back the first close-up images of another planet."}
+  ],
+  "07-15": [
+    {"year": 2006, "event": "Twitter is officially launched to the public, co-founded by Jack Dorsey, Biz Stone, and Evan Williams."}
+  ],
+  "07-16": [
+    {"year": 1945, "event": "The Trinity test detonates the first atomic bomb, ushering in the nuclear age that would shape supercomputing and simulation."},
+    {"year": 1969, "event": "Apollo 11 launches from Kennedy Space Center, carrying Neil Armstrong, Buzz Aldrin, and Michael Collins on the first lunar landing mission."}
+  ],
+  "07-17": [
+    {"year": 2008, "event": "The first version of the Android operating system is officially announced by Google."}
+  ],
+  "07-18": [
+    {"year": 1968, "event": "Intel Corporation is founded in Mountain View, California by Gordon Moore, Robert Noyce, and Andy Grove, becoming the world's largest semiconductor company."}
+  ],
+  "07-19": [
+    {"year": 2010, "event": "Amazon announces that it now sells more e-books than hardcover books, a pivotal moment for digital publishing."}
+  ],
+  "07-20": [
+    {"year": 1969, "event": "Neil Armstrong becomes the first human to walk on the Moon, uttering the famous words: 'That's one small step for man, one giant leap for mankind.'"},
+    {"year": 1976, "event": "NASA's Viking 1 successfully lands on Mars, sending back the first color images from the Martian surface."}
+  ],
+  "07-21": [
+    {"year": 1969, "event": "Apollo 11 astronauts return safely to Earth, splashing down in the Pacific Ocean after humanity's first Moon landing."},
+    {"year": 2011, "event": "NASA's Space Shuttle Atlantis lands for the final time, ending the 30-year Space Shuttle program with 135 missions flown."}
+  ],
+  "07-22": [
+    {"year": 2007, "event": "The first version of the Amazon Kindle is released, selling out within six hours."}
+  ],
+  "07-23": [
+    {"year": 1995, "event": "Comet Hale-Bopp is independently discovered by two amateur astronomers, becoming one of the most observed comets of the 20th century."}
+  ],
+  "07-24": [
+    {"year": 2011, "event": "China launches its first space station module, Tiangong-1, marking China's entry into human spaceflight."}
+  ],
+  "07-25": [
+    {"year": 2007, "event": "The first version of the .NET Micro Framework is released by Microsoft for embedded devices."}
+  ],
+  "07-26": [
+    {"year": 2005, "event": "NASA's Space Shuttle Discovery launches on STS-114, the 'Return to Flight' mission after the Columbia disaster."}
+  ],
+  "07-27": [
+    {"year": 2007, "event": "The first version of the Apple iPhone is released internationally."}
+  ],
+  "07-28": [
+    {"year": 2007, "event": "The first version of the Apple iPhone 3G goes on sale."}
+  ],
+  "07-29": [
+    {"year": 2008, "event": "Amazon acquires Zappos for $1.2 billion in stock, the largest Amazon acquisition at the time."}
+  ],
+  "07-30": [
+    {"year": 1971, "event": "Apollo 15's Lunar Module 'Falcon' lands on the Moon at Hadley Rille, the fourth crewed lunar landing mission."}
+  ],
+  "07-31": [
+    {"year": 2008, "event": "The first version of the Android Market (now Google Play) is launched."}
+  ],
+  "08-01": [
+    {"year": 2008, "event": "Airbnb is founded by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk in San Francisco."}
+  ],
+  "08-02": [
+    {"year": 2005, "event": "The first version of the AJAX programming technique is coined by Jesse James Garrett."}
+  ],
+  "08-03": [
+    {"year": 1977, "event": "Radio Shack introduces the TRS-80 Model I personal computer, one of the first mass-produced microcomputers."}
+  ],
+  "08-04": [
+    {"year": 2007, "event": "NASA's Phoenix Mars Lander is launched on a mission to search for water ice near the Martian north pole."}
+  ],
+  "08-05": [
+    {"year": 2012, "event": "NASA's Curiosity rover successfully lands on Mars, deploying the largest and most advanced rover ever sent to another planet."}
+  ],
+  "08-06": [
+    {"year": 1991, "event": "Tim Berners-Lee posts a summary of the World Wide Web project on the alt.hypertext newsgroup, marking the public debut of the web."},
+    {"year": 2012, "event": "NASA's Curiosity rover lands on Mars, using a revolutionary sky-crane landing system to deliver the car-sized rover."}
+  ],
+  "08-07": [
+    {"year": 2012, "event": "NASA's Curiosity rover transmits its first color images from Gale Crater on Mars, confirming a successful landing."}
+  ],
+  "08-08": [
+    {"year": 2008, "event": "The Beijing Olympics opening ceremony showcases cutting-edge digital technology, including LED displays and computer-controlled lighting."}
+  ],
+  "08-09": [
+    {"year": 2012, "event": "Apple becomes the world's most valuable publicly traded company, surpassing $621 billion in market capitalization."}
+  ],
+  "08-10": [
+    {"year": 1990, "event": "NASA's Magellan spacecraft arrives at Venus, using radar mapping to reveal 98% of the planet's surface."}
+  ],
+  "08-11": [
+    {"year": 1942, "event": "Hedy Lamarr and George Antheil receive US Patent 2,292,387 for frequency-hopping spread spectrum technology, a precursor to WiFi and Bluetooth."}
+  ],
+  "08-12": [
+    {"year": 1981, "event": "IBM introduces the IBM Personal Computer (IBM PC), standardizing the PC architecture with an open design that would dominate the industry."}
+  ],
+  "08-13": [
+    {"year": 1981, "event": "IBM ships the first IBM Personal Computer (Model 5150) to customers, establishing the open architecture standard for the PC industry."}
+  ],
+  "08-14": [
+    {"year": 2005, "event": "The first version of the Amazon Kindle is announced, revolutionizing book reading."}
+  ],
+  "08-15": [
+    {"year": 1995, "event": "Microsoft releases Windows 95, selling 7 million copies within the first five weeks."}
+  ],
+  "08-16": [
+    {"year": 1960, "event": "Artificial intelligence pioneer Arthur Samuel demonstrates his self-learning checkers program on an IBM 704 computer."}
+  ],
+  "08-17": [
+    {"year": 1982, "event": "The first commercially produced compact disc rolls off the production line at the Philips factory in Langenhagen, Germany."}
+  ],
+  "08-18": [
+    {"year": 2011, "event": "Google announces its intent to acquire Motorola Mobility for $12.5 billion, a major move into mobile hardware."}
+  ],
+  "08-19": [
+    {"year": 1994, "event": "The first internet radio broadcast is made by the WXYC radio station at the University of North Carolina."}
+  ],
+  "08-20": [
+    {"year": 1977, "event": "NASA launches Voyager 2, humanity's longest-running space mission, still transmitting data from interstellar space."}
+  ],
+  "08-21": [
+    {"year": 2006, "event": "Google releases Google Apps for Your Domain (now Google Workspace), offering business email and productivity tools."}
+  ],
+  "08-22": [
+    {"year": 1995, "event": "Microsoft releases Internet Explorer 1.0 for Windows 95, beginning the browser wars."}
+  ],
+  "08-23": [
+    {"year": 1966, "event": "NASA's Mariner 5 spacecraft flies by Venus, returning data that revealed the planet's extreme atmospheric conditions."}
+  ],
+  "08-24": [
+    {"year": 1995, "event": "Microsoft releases Windows 95, the most hyped operating system launch in history."}
+  ],
+  "08-25": [
+    {"year": 1991, "event": "Linus Torvalds posts to the comp.os.minix newsgroup announcing the Linux operating system, beginning the open-source revolution."}
+  ],
+  "08-26": [
+    {"year": 2005, "event": "Google acquires Android Inc. for approximately $50 million, beginning the development of what would become the world's most popular mobile operating system."}
+  ],
+  "08-27": [
+    {"year": 2010, "event": "Google TV is officially announced, integrating the web with television."}
+  ],
+  "08-28": [
+    {"year": 2012, "event": "Samsung unveils the Galaxy Note 10.1 tablet at IFA in Berlin, expanding its stylus-equipped product line."}
+  ],
+  "08-29": [
+    {"year": 1997, "event": "Netflix is founded by Reed Hastings and Marc Randolph in Scotts Valley, California, starting as a DVD-by-mail rental service."}
+  ],
+  "08-30": [
+    {"year": 2007, "event": "Apple announces that iPhone sales have exceeded 1 million units, achieving the milestone in just 74 days."}
+  ],
+  "08-31": [
+    {"year": 2008, "event": "Google releases the first stable version of the Chrome browser for Windows, achieving rapid adoption."}
+  ],
+  "09-01": [
+    {"year": 1998, "event": "Google is founded by Larry Page and Sergey Brin while they were PhD students at Stanford University."}
+  ],
+  "09-02": [
+    {"year": 2008, "event": "Google releases the first version of the Chrome web browser, now the world's most popular browser."}
+  ],
+  "09-03": [
+    {"year": 1995, "event": "eBay is founded by Pierre Omidyar in San Jose, California, as an online marketplace where anyone could buy and sell."}
+  ],
+  "09-04": [
+    {"year": 1998, "event": "Google is officially incorporated by Larry Page and Sergey Brin, operating out of a friend's garage in Menlo Park."}
+  ],
+  "09-05": [
+    {"year": 2007, "event": "The first version of the Android operating system is officially announced by Google."}
+  ],
+  "09-06": [
+    {"year": 2008, "event": "The first version of the Android software development kit (SDK) is released to developers."}
+  ],
+  "09-07": [
+    {"year": 1998, "event": "Google is incorporated as a private company by Larry Page and Sergey Brin in Menlo Park, California."}
+  ],
+  "09-08": [
+    {"year": 2004, "event": "NASA's Genesis spacecraft returns samples of solar wind to Earth."}
+  ],
+  "09-09": [
+    {"year": 2007, "event": "Apple announces that the iPhone has sold over 1 million units in its first 74 days on the market."}
+  ],
+  "09-10": [
+    {"year": 2008, "event": "The Large Hadron Collider is first powered up at CERN, the world's largest and most powerful particle accelerator."}
+  ],
+  "09-11": [
+    {"year": 2001, "event": "The September 11 attacks kill nearly 3,000 people, leading to massive changes in surveillance, data mining, and security technology worldwide."}
+  ],
+  "09-12": [
+    {"year": 1958, "event": "Jack Kilby demonstrates the first integrated circuit at Texas Instruments, a breakthrough that would enable the modern computer chip."}
+  ],
+  "09-13": [
+    {"year": 1956, "event": "IBM unveils the RAMAC 305, the world's first commercial hard disk drive, a refrigerator-sized machine storing 5 million characters."}
+  ],
+  "09-14": [
+    {"year": 1959, "event": "The Soviet probe Luna 2 becomes the first human-made object to reach the Moon, impacting the lunar surface at Hadley-Apennine."}
+  ],
+  "09-15": [
+    {"year": 2008, "event": "Lehman Brothers files for bankruptcy, triggering a global financial crisis that would reshape the tech investment landscape."}
+  ],
+  "09-16": [
+    {"year": 2011, "event": "Snapchat is founded by Evan Spiegel, Bobby Murphy, and Reggie Brown at Stanford University."}
+  ],
+  "09-17": [
+    {"year": 1976, "event": "The first Space Shuttle prototype, Enterprise, completes its first free atmospheric test flight at Edwards Air Force Base."}
+  ],
+  "09-18": [
+    {"year": 2014, "event": "Apple releases iOS 8, introducing HealthKit, HomeKit, and third-party keyboard support."}
+  ],
+  "09-19": [
+    {"year": 2008, "event": "Apple releases the second-generation iPod Touch, featuring a built-in speaker and volume controls."}
+  ],
+  "09-20": [
+    {"year": 2008, "event": "Apple reaches 100,000 applications in the App Store, just nine months after its launch."}
+  ],
+  "09-21": [
+    {"year": 2005, "event": "The first version of the Firefox 1.5 browser is released."}
+  ],
+  "09-22": [
+    {"year": 2008, "event": "Google releases the first version of the Chrome browser for Windows."}
+  ],
+  "09-23": [
+    {"year": 1999, "event": "NASA's Mars Climate Orbiter is lost due to a navigation error caused by metric-imperial unit confusion."}
+  ],
+  "09-24": [
+    {"year": 2008, "event": "Microsoft releases Internet Explorer 8 Beta 2, introducing InPrivate browsing and the SmartScreen filter."}
+  ],
+  "09-25": [
+    {"year": 2008, "event": "Yahoo! announces layoffs of 10% of its workforce."}
+  ],
+  "09-26": [
+    {"year": 2007, "event": "The App Store reaches 3,000 applications, demonstrating the rapid growth of the mobile app ecosystem."}
+  ],
+  "09-27": [
+    {"year": 1998, "event": "The Google search engine is officially launched, indexing 25 million pages."}
+  ],
+  "09-28": [
+    {"year": 2008, "event": "The first version of the Android 1.0 operating system is released to the public."}
+  ],
+  "09-29": [
+    {"year": 2008, "event": "Google releases the first version of the Chrome browser for Windows, Mac, and Linux."}
+  ],
+  "09-30": [
+    {"year": 2008, "event": "The first version of the Android Market (now Google Play) is launched with 50 apps."}
+  ],
+  "10-01": [
+    {"year": 1982, "event": "The first CD player, Sony's CDP-101, goes on sale in Japan."},
+    {"year": 2004, "event": "The first version of the Android operating system is developed by Android Inc."}
+  ],
+  "10-02": [
+    {"year": 2007, "event": "Apple releases the iPhone 3G with iOS 2.0 software update."}
+  ],
+  "10-03": [
+    {"year": 2010, "event": "Facebook announces its acquisition of Face.com, a facial recognition startup."}
+  ],
+  "10-04": [
+    {"year": 1957, "event": "The Soviet Union launches Sputnik 1, the world's first artificial satellite, sparking the Space Race."}
+  ],
+  "10-05": [
+    {"year": 2011, "event": "Steve Jobs dies at age 56 after a long battle with pancreatic cancer, marking the end of an era for Apple and the tech industry."}
+  ],
+  "10-06": [
+    {"year": 2010, "event": "Instagram is founded by Kevin Systrom and Mike Krieger, launching as a photo-sharing app with filters."}
+  ],
+  "10-07": [
+    {"year": 1994, "event": "Netscape Navigator 1.0 is released, enabling widespread adoption of the World Wide Web."}
+  ],
+  "10-08": [
+    {"year": 2001, "event": "Apple releases Mac OS X 10.1 (Puma), the second major version of its Unix-based operating system."}
+  ],
+  "10-09": [
+    {"year": 2003, "event": "NASA's Mars Odyssey enters orbit around Mars, eventually becoming the longest-lasting spacecraft orbiting the Red Planet."}
+  ],
+  "10-10": [
+    {"year": 1957, "event": "The Sputnik crisis deepens as the Soviet satellite continues orbiting, galvanizing the US to invest heavily in science and technology."}
+  ],
+  "10-11": [
+    {"year": 1990, "event": "Apple introduces the Macintosh IIsi, one of the first Macs to feature built-in networking."}
+  ],
+  "10-12": [
+    {"year": 1999, "event": "The Euro currency is officially launched electronically, affecting global financial technology systems."}
+  ],
+  "10-13": [
+    {"year": 2008, "event": "The first version of Android Market (Google Play) is launched alongside the HTC Dream smartphone."}
+  ],
+  "10-14": [
+    {"year": 1947, "event": "Chuck Yeager becomes the first person to break the sound barrier in the Bell X-1 aircraft, a milestone in aerospace engineering."}
+  ],
+  "10-15": [
+    {"year": 1997, "event": "NASA's Cassini-Huygens spacecraft launches on a mission to explore Saturn and its moons."}
+  ],
+  "10-16": [
+    {"year": 1923, "event": "The Disney Brothers Cartoon Studio is founded by Walt and Roy Disney, eventually becoming a technology-driven entertainment giant."}
+  ],
+  "10-17": [
+    {"year": 1989, "event": "The Loma Prieta earthquake strikes San Francisco, interrupting the World Series and highlighting the need for earthquake-resistant technology."}
+  ],
+  "10-18": [
+    {"year": 1969, "event": "The first ARPANET connection is made between UCLA and the Stanford Research Institute, laying the foundation for the internet."}
+  ],
+  "10-19": [
+    {"year": 2005, "event": "China launches Shenzhou 6, its second manned space mission, carrying two astronauts for a five-day orbital flight."}
+  ],
+  "10-20": [
+    {"year": 2003, "event": "Microsoft releases Windows Media Center Edition 2004, bringing DVR functionality to the PC."}
+  ],
+  "10-21": [
+    {"year": 2003, "event": "China's Shenzhou 5 returns safely, making China the third country to independently send a human into space."}
+  ],
+  "10-22": [
+    {"year": 2004, "event": "The first version of the Ubuntu Linux operating system is released by Canonical."}
+  ],
+  "10-23": [
+    {"year": 2001, "event": "Apple releases the iPod, a portable music player that would revolutionize the music industry."}
+  ],
+  "10-24": [
+    {"year": 2007, "event": "Apple announces the iMac with aluminum design, marking a major aesthetic shift in desktop computing."}
+  ],
+  "10-25": [
+    {"year": 1983, "event": "The US invades Grenada in Operation Urgent Fury."}
+  ],
+  "10-26": [
+    {"year": 1994, "event": "The first web banner ad appears on HotWired, advertising AT&T with a 44% click-through rate."}
+  ],
+  "10-27": [
+    {"year": 2005, "event": "The first version of the Wikipedia mobile site is launched, making the encyclopedia accessible on mobile devices."}
+  ],
+  "10-28": [
+    {"year": 2009, "event": "Motorola announces the Droid, the first Android smartphone with a physical QWERTY keyboard, challenging the iPhone."}
+  ],
+  "10-29": [
+    {"year": 1969, "event": "The first message is sent over ARPANET, the precursor to the modern internet, from UCLA to Stanford."}
+  ],
+  "10-30": [
+    {"year": 1938, "event": "Oracle Corporation's precursor, Software Development Laboratories, is founded by Larry Ellison, Bob Miner, and Ed Oates."}
+  ],
+  "10-31": [
+    {"year": 2000, "event": "The Y2K bug fails to materialize as millions of computers successfully transition to the year 2000."}
+  ],
+  "11-01": [
+    {"year": 1993, "event": "The first version of the Mosaic web browser (version 1.0) is released, bringing the World Wide Web to mainstream users."}
+  ],
+  "11-02": [
+    {"year": 1988, "event": "The Morris Worm, one of the first computer worms, infects approximately 10% of all connected computers on the internet."}
+  ],
+  "11-03": [
+    {"year": 2004, "event": "Facebook opens registration to all users aged 13 and older, expanding beyond college students."}
+  ],
+  "11-04": [
+    {"year": 2008, "event": "Barack Obama is elected the 44th President of the United States, running the most digitally sophisticated campaign in history."}
+  ],
+  "11-05": [
+    {"year": 2007, "event": "The first Android-powered smartphone, the HTC Dream (T-Mobile G1), is officially released to consumers."}
+  ],
+  "11-06": [
+    {"year": 2012, "event": "Barack Obama is re-elected as President of the United States, with social media playing a central role in campaign strategy."}
+  ],
+  "11-07": [
+    {"year": 1996, "event": "The first version of the Nokia 9000 Communicator is released, pioneering the smartphone category."}
+  ],
+  "11-08": [
+    {"year": 2006, "event": "Microsoft releases Windows Vista to manufacturing, the successor to the widely used Windows XP."}
+  ],
+  "11-09": [
+    {"year": 1989, "event": "The Berlin Wall falls, leading to the rapid spread of Western internet infrastructure across Eastern Europe."}
+  ],
+  "11-10": [
+    {"year": 2009, "event": "Google releases the first version of the Chrome browser for Mac OS X and Linux, expanding cross-platform support."}
+  ],
+  "11-11": [
+    {"year": 2002, "event": "NASA's Mars Odyssey enters orbit around Mars, beginning its mission to map the planet's surface composition."}
+  ],
+  "11-12": [
+    {"year": 2012, "event": "The first version of the Windows 8 operating system is released to manufacturing."}
+  ],
+  "11-13": [
+    {"year": 2002, "event": "The Human Genome Project completes its mapping of the human genome, a $3 billion, 13-year international effort."}
+  ],
+  "11-14": [
+    {"year": 2008, "event": "Space Shuttle Endeavour launches on STS-126, delivering equipment to the International Space Station."}
+  ],
+  "11-15": [
+    {"year": 2003, "event": "Sony releases the PlayStation Portable (PSP) in Japan, pioneering handheld gaming with console-quality graphics."}
+  ],
+  "11-16": [
+    {"year": 2008, "event": "The first version of the Android 1.1 operating system is released."}
+  ],
+  "11-17": [
+    {"year": 1989, "event": "The first version of the World Wide Web software is released to the public by CERN."}
+  ],
+  "11-18": [
+    {"year": 2003, "event": "The first version of the Firefox browser (Phoenix 0.1) is released, beginning the challenge to Internet Explorer's dominance."}
+  ],
+  "11-19": [
+    {"year": 1969, "event": "Pelé scores his 1,000th goal, a moment broadcast live on Brazilian television via satellite."}
+  ],
+  "11-20": [
+    {"year": 1998, "event": "The first module of the International Space Station, Zarya, is launched into orbit."}
+  ],
+  "11-21": [
+    {"year": 2009, "event": "Amazon releases the Kindle 2 e-reader, featuring faster page turns and longer battery life."}
+  ],
+  "11-22": [
+    {"year": 1995, "event": "Toy Story is released, becoming the first entirely computer-animated feature film, produced by Pixar and Disney."}
+  ],
+  "11-23": [
+    {"year": 2005, "event": "Sony releases the PlayStation 3 in Japan, featuring the Cell processor and Blu-ray disc support."}
+  ],
+  "11-24": [
+    {"year": 1971, "event": "D.B. Cooper hijacks a Boeing 727 and parachutes with $200,000, in one of the greatest mysteries in aviation history."}
+  ],
+  "11-25": [
+    {"year": 2007, "event": "Apple releases iPhone Software Update 1.1.2, adding international keyboard support and bug fixes."}
+  ],
+  "11-26": [
+    {"year": 2008, "event": "The first version of the Android Market (Google Play) is announced by Google, enabling app distribution for Android."}
+  ],
+  "11-27": [
+    {"year": 2005, "event": "Microsoft releases Windows XP Media Center Edition 2005, integrating TV, music, and photo management."}
+  ],
+  "11-28": [
+    {"year": 2005, "event": "Mozilla Firefox 1.5 is released, featuring faster page rendering and improved tabbed browsing."}
+  ],
+  "11-29": [
+    {"year": 2007, "event": "The first iPhone goes on sale in the UK on O2, expanding Apple's smartphone to international markets."}
+  ],
+  "11-30": [
+    {"year": 2007, "event": "The iPhone launches in Germany on T-Mobile and in France on Orange, completing its initial international rollout."}
+  ],
+  "12-01": [
+    {"year": 1990, "event": "The first version of the World Wide Web software is released to the public by Tim Berners-Lee at CERN."}
+  ],
+  "12-02": [
+    {"year": 1971, "event": "The Mars probe Mariner 9 becomes the first spacecraft to orbit another planet, arriving at Mars."}
+  ],
+  "12-03": [
+    {"year": 1992, "event": "The first SMS text message is sent in the UK, reading 'Merry Christmas' from Neil Papworth to Richard Jarvis."}
+  ],
+  "12-04": [
+    {"year": 1996, "event": "NASA's Mars Pathfinder is launched on a mission to deploy the first rover on Mars."}
+  ],
+  "12-05": [
+    {"year": 2004, "event": "Mozilla releases Firefox 1.0, the browser that would break Internet Explorer's monopoly and reshape the web."}
+  ],
+  "12-06": [
+    {"year": 2006, "event": "NASA's STS-116 Space Shuttle mission launches to rewire the International Space Station's power system."}
+  ],
+  "12-07": [
+    {"year": 1941, "event": "The attack on Pearl Harbor accelerates the development of codebreaking computers like Colossus and the Bombe."}
+  ],
+  "12-08": [
+    {"year": 1991, "event": "The first web server in North America goes live at SLAC, extending the World Wide Web beyond Europe."}
+  ],
+  "12-09": [
+    {"year": 1968, "event": "Douglas Engelbart demonstrates the 'Mother of All Demos,' showcasing the mouse, hypertext, video conferencing, and collaborative editing."}
+  ],
+  "12-10": [
+    {"year": 1984, "event": "Cisco Systems is founded by Leonard Bosack and Sandy Lerner at Stanford University."}
+  ],
+  "12-11": [
+    {"year": 2015, "event": "OpenAI is founded by Elon Musk, Sam Altman, Greg Brockman, Ilya Sutskever, John Schulman, and Wojciech Zaremba as a non-profit AI research company."}
+  ],
+  "12-12": [
+    {"year": 2001, "event": "Microsoft releases the first version of the Xbox Live online gaming service, pioneering console multiplayer gaming."}
+  ],
+  "12-13": [
+    {"year": 2001, "event": "The Human Genome Project publishes the first comprehensive draft of the human genome."}
+  ],
+  "12-14": [
+    {"year": 1994, "event": "Netscape Navigator 1.0 is released, becoming the dominant web browser of the mid-1990s."}
+  ],
+  "12-15": [
+    {"year": 2001, "event": "Microsoft releases the first Xbox gaming console in North America, entering the console hardware market."}
+  ],
+  "12-16": [
+    {"year": 1998, "event": "The first version of the Quake III Arena game engine is released, showcasing advanced 3D graphics technology."}
+  ],
+  "12-17": [
+    {"year": 2003, "event": "SpaceShipOne makes its first powered flight, becoming the first privately built spacecraft to exceed Mach 1."}
+  ],
+  "12-18": [
+    {"year": 1958, "event": "The first communications satellite, Score (Signal Communications by Orbiting Relay Equipment), is launched by the US Air Force."}
+  ],
+  "12-19": [
+    {"year": 1998, "event": "Sony releases the first PlayStation console in the US, bringing Japanese gaming to a global audience."}
+  ],
+  "12-20": [
+    {"year": 1995, "event": "Windows 95 OSR2 is released, introducing the Internet Explorer browser and FAT32 file system."}
+  ],
+  "12-21": [
+    {"year": 1968, "event": "Apollo 8 launches, becoming the first crewed spacecraft to orbit the Moon and the first to witness an Earthrise."}
+  ],
+  "12-22": [
+    {"year": 1989, "event": "Tim Berners-Lee's World Wide Web software is released to the public, enabling the modern internet."}
+  ],
+  "12-23": [
+    {"year": 1947, "event": "The transistor is first demonstrated at Bell Labs by John Bardeen, Walter Brattain, and William Shockley, birthing the semiconductor age."}
+  ],
+  "12-24": [
+    {"year": 1968, "event": "Apollo 8 orbits the Moon, and astronaut William Anders captures the iconic 'Earthrise' photograph."}
+  ],
+  "12-25": [
+    {"year": 1991, "event": "The Soviet Union is officially dissolved, ending the Cold War and opening up the internet to former Eastern Bloc countries."}
+  ],
+  "12-26": [
+    {"year": 2004, "event": "A massive 9.1-magnitude earthquake in the Indian Ocean triggers a devastating tsunami, killing over 230,000 people across 14 countries."}
+  ],
+  "12-27": [
+    {"year": 2004, "event": "The Indian Ocean tsunami devastates coastal communities, spurring the development of early warning systems and satellite-based disaster response."}
+  ],
+  "12-28": [
+    {"year": 2014, "event": "Sony Pictures is hacked by the Guardians of Peace, exposing sensitive data and raising cybersecurity concerns."}
+  ],
+  "12-29": [
+    {"year": 1997, "event": "Microsoft invests $150 million in Apple Computer, saving the company from bankruptcy and ensuring continued competition in the tech industry."}
+  ],
+  "12-30": [
+    {"year": 2006, "event": "Saddam Hussein is executed by hanging, marking the end of a regime whose reign saw the destruction of Iraq's tech infrastructure."}
+  ],
+  "12-31": [
+    {"year": 2015, "event": "The International Space Station completes its 15th year of continuous human habitation."}
+  ]
+}

@@ -10,7 +10,7 @@ const SITE_DIR = path.join(ROOT, '_site');
 const LAYOUT_FILE = path.join(ROOT, '_layouts', 'default.html');
 
 const config = {
-  title: 'Daily Build Journal',
+  title: 'Daily Entry Journal',
   description: 'One commit, every day',
   author: 'Ayoola Damisile',
   baseurl: process.env.VERCEL_ENV === 'production' ? '' : ''
@@ -103,6 +103,40 @@ function build() {
       return { date, title, file: f.replace('.md', '.html') };
     })
     .reverse();
+
+  // Generate sitemap.xml
+  const sitemapUrls = contentEntries.map(e => {
+    const lastmod = new Date(e.date).toISOString().split('T')[0];
+    return `  <url>
+    <loc>https://daily-commit.vercel.app/content/${e.file}</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>`;
+  });
+
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://daily-commit.vercel.app/</loc>
+    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+${sitemapUrls.join('\n')}
+</urlset>`;
+
+  fs.writeFileSync(path.join(SITE_DIR, 'sitemap.xml'), sitemap);
+
+  // Generate robots.txt
+  const robots = `User-agent: *
+Allow: /
+Sitemap: https://daily-commit.vercel.app/sitemap.xml
+
+User-agent: *
+Disallow: /_site/`;
+
+  fs.writeFileSync(path.join(SITE_DIR, 'robots.txt'), robots);
 
   console.log(`Built ${contentEntries.length} content pages + index`);
   console.log('✅ Site built to _site/');

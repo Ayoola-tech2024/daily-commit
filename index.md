@@ -6,7 +6,7 @@ layout: default
 
 <span class="hero-subtitle">by **Ayoola Damisile**</span>
 
-🔥 **7-day streak** &middot; 🎯 **7 / 300** builds
+🔥 **8-day streak** &middot; 🎯 **8 / 300** builds
 
 ---
 
@@ -20,4 +20,5 @@ layout: default
 | 5 | [2026-07-18](./content/2026-07-18.md) | Dark Mode Toggle |
 | 6 | [2026-07-19](./content/2026-07-19.md) | Button Component System |
 | 7 | [2026-07-20](./content/2026-07-20.md) | Card Component Library |
+| 8 | [2026-07-21](./content/2026-07-21.md) | Modal Dialog System |
 

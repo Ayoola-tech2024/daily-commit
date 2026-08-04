@@ -2,17 +2,17 @@
 
 A daily entry journal. One commit, every day.
 
-🔥 **21-day streak** · 🎯 **21 / 300** builds
+🔥 **22-day streak** · 🎯 **22 / 300** builds
 
 ## Year Progress
 
-███████████░░░░░░░░░ 58.9%
+███████████░░░░░░░░░ 59.2%
 
-**Days completed:** 215 / 365
+**Days completed:** 216 / 365
 
 ## Latest
 
-[View today's entry →](./content/2026-08-03.md)
+[View today's entry →](./content/2026-08-04.md)
 
 [View all builds](/)
 

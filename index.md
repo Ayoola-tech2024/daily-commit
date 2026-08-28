@@ -6,7 +6,7 @@ layout: default
 
 <span class="hero-subtitle">by **Ayoola Damisile**</span>
 
-🌟 **45-day streak** &middot; 🎯 **45 / 300** entries
+🌟 **46-day streak** &middot; 🎯 **46 / 300** entries
 
 ---
 
@@ -62,6 +62,7 @@ layout: default
 | 25 | [2026-08-25](./content/2026-08-25.md) | <span class="title-truncate">Daily entry</span> |
 | 26 | [2026-08-26](./content/2026-08-26.md) | <span class="title-truncate">Daily entry</span> |
 | 27 | [2026-08-27](./content/2026-08-27.md) | <span class="title-truncate">Daily entry</span> |
+| 28 | [2026-08-28](./content/2026-08-28.md) | <span class="title-truncate">Daily entry</span> |
 
 ## Streak Calendar
 <div class="streak-calendar">
@@ -303,5 +304,6 @@ layout: default
 <div class="streak-day filled" title="2026-08-24"></div>
 <div class="streak-day filled" title="2026-08-25"></div>
 <div class="streak-day filled" title="2026-08-26"></div>
-<div class="streak-day filled today" title="2026-08-27"></div>
+<div class="streak-day filled" title="2026-08-27"></div>
+<div class="streak-day filled today" title="2026-08-28"></div>
 </div>
